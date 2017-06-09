@@ -1,0 +1,43 @@
+#map {
+	height: calc(100vh - 51px);
+	width: 100%;
+}
+
+.full-screen-wrapper {
+	align-items: center;
+	background: url('../assets/images/pumperpal-bg.jpg');
+	background-size: cover;
+	display: flex;
+	height: calc(100vh - 54px);
+	color: #fff;
+
+	.container {
+		text-align: center;
+
+		h1 {
+			font-weight: 300;
+			font-size: 56px;
+			text-transform: uppercase;
+		}
+
+		input {
+			width: 100%;
+			max-width: 400px;
+			height: 42px;
+			padding-left: 10px;
+			border: none;
+			font-size: 20px;
+			border-bottom: 5px solid #967ADC;
+			color: #000;
+		}
+
+		.btn-pumperpal {
+			padding: 12px;
+			align-self: stretch;
+			border: none;
+			border-radius: 0;
+			background: #967ADC;
+			margin-left: -4px;
+		}
+	}
+}
